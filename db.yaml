@@ -1,5 +1,5 @@
 - name: Configure db 
-  hosts: web
+  hosts: db
   vars:
    my_sql_password: ExpenseApp@1
   become: yes
